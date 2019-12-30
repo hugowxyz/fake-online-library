@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Library App! </title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+
+    <body>
+
+        <div id="topnav" class="row">
+            <button id="toggleForm" class="btn"> Add a new book </button>
+            <h2 id="title"> Welcome to your online library! </h2> 
+        </div>
+
+        <div id="form" class="container hidden">
+            <div class="formField container col">
+                <p> Book name: </p>
+                <input type="text" id="bookName">
+            </div>
+
+            <div class="formField container col">
+                <p> Book Author: </p>
+                <input type="text" id="bookAuth">
+            </div>
+
+            <div class="formField container col">
+                <p> Book Pages: </p>
+                <input type="text" id="bookPages">  
+            </div>
+
+            <div class="formField container col">
+                <p> Book Read? </p>
+                <input type="checkbox" id="bookRead">
+            </div>
+
+            <button id="bookBtn" type="submit">Submit</button>
+        </div>
+
+        <div id="bookHeader" class="bookContainer container col" id="Id">
+            <div id="name" class="property container row">Name</div>
+            <div id="author" class="property container row">Author</div>
+            <div id="pages" class="property container row">Pages</div>
+            <div id="read" class="property container row">Read Yet?</div>
+            <div id="id" class="property container row">Id</div>
+            <div style="visibility: hidden; " class="deleteBtn container row">X</div>
+            <div style="visibility: hidden;" class="readBtn container row">Read book</div>
+        </div>
+
+        <div id="mainContainer" class="container col"></div>
+
+        <script src="scripts/script.js"></script>
+    </body>
+</html>
