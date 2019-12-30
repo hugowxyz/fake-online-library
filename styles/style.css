@@ -1,0 +1,109 @@
+/* General */
+
+.container {
+    padding: 15px;
+    margin: 10px;
+    overflow: auto;
+}
+
+.row {
+    display: inline-block;
+}
+
+.col {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.property {
+    font-size: 1.2em;
+    width: 100px;
+}
+
+/* Top nav */
+
+#topnav {
+    margin-bottom: 25px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+#toggleForm {
+    float: left;
+    color: grey;
+    background-color: white;
+    padding: 25px;
+    border: none;
+}
+
+#toggleForm:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#title {
+    margin-left: -6%;
+    display: inline-block;
+}
+/* Book header */
+
+#bookHeader {
+    border: 3px solid green;
+    background-color: white;
+}
+
+
+/* Main container */
+
+#mainContainer {
+    text-align: center;
+    padding: 5px;
+}
+
+/* Book container */
+
+.bookContainer {
+    text-align: center;
+    border: 1px solid black;
+    padding: 0px;
+}
+
+.bookContainer:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+/* Form */
+
+#form {
+    margin: 25px auto;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    border-radius: 25px;
+    text-align: center;
+    width: 500px;
+}
+
+/* Delete button */
+
+.deleteBtn, .readBtn {
+    float: right;
+    border-radius: 15px;
+    background-color: red;
+}
+
+.deleteBtn:hover, .readBtn:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.readBtn {
+    background-color: lightgreen;
+}
+
+.readBtn:hover {
+    color: grey;
+}
